@@ -27,6 +27,10 @@ const config: LockliftConfig = {
     // externalContracts: {
     //   "node_modules/broxus-ton-tokens-contracts/build": ['TokenRoot', 'TokenWallet']
     // }
+    externalContracts: {
+      "./precompiled": ['Index', 'IndexBasis']
+    }
+
   },
   linker: {
     // Specify path to your stdlib
